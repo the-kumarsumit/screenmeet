@@ -27,7 +27,7 @@ function Redirect() {
 ═══════════════════════════════════ */
 function Placeholder({ role, hostName }) {
   return (
-    <div className="text-center px-4">
+    <div className="text-center px-4 hidden">
       <div className="w-20 h-20 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
         <span className="text-3xl sm:text-4xl">
           <img src="/anime-and-manga-svgrepo-com.svg" alt="logo" />
