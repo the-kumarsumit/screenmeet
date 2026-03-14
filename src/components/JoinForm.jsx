@@ -75,7 +75,6 @@ export default function JoinForm() {
           type="text"
           value={roomId}
           onChange={(e) => setRoomId(e.target.value)}
-          placeholder="Enter the watch ID"
           className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-gray-700/50 border border-gray-600 rounded-xl text-white text-sm sm:text-base placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
         />
       </div>
