@@ -46,10 +46,6 @@ export default function Home() {
             {tab === "host" ? <HostForm /> : <JoinForm />}
           </div>
         </div>
-
-        <p className="text-center text-gray-600 text-[10px] sm:text-xs mt-4 sm:mt-6">
-          No login • Peer-to-peer • End-to-end
-        </p>
       </div>
     </div>
   );
